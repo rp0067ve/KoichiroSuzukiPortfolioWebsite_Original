@@ -49,7 +49,7 @@ if(navClose){
     })
 }
 
-crossOriginIsolated.log("MENU Y SETTING WORKING!")
+console.log("MENU Y SETTING WORKING!")
 //============================= REMOVE MENU PRORFILE=================
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -67,7 +67,7 @@ console.log("Remove menu profile is working")
 
 
 new Typewriter('#typewriter', {
-  strings: ['Biplov Jha', 'Web-developer', 'Electrical-Engineer', 'e-Tutor', 'Author'],
+  strings: ['Biplov Jha', 'Web-developer', 'Electrical-Engineer', 'e-Tutor', 'Author', ''],
   autoStart: true,
   loop: true,
   cursor: "|"
@@ -76,7 +76,8 @@ console.log("Typewriter effect is working!")
 
 //============================= Portfolio Swiper =================
 
-var swiper = new Swiper(".blog-slider", {
+
+var swiper = new Swiper('.blog-slider', {
     spaceBetween: 30,
     effect: 'fade',
     loop: true,
@@ -88,7 +89,7 @@ var swiper = new Swiper(".blog-slider", {
     //  prevEl: ".swiper-button-prev",
     //},
     pagination: {
-      el: ".blog-slider__pagination",
+      el: '.blog-slider__pagination',
       clickable: true,
     },
     //mousewheel: true,

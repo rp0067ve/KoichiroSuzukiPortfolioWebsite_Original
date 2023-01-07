@@ -24,6 +24,8 @@
     --scroll-thumb-color: hsl(var(--hue-color), 15%, 70%);
     --gradient-color: linear-gradient(140deg, rgba(93,72,199,1) 0%, rgba(94,91,201,1) rgba(101,125,157,1) 100%);
 
+
+
     /* ====================== FONT AND TYPOGRAPHY =====================*/
     --gullible-font: 'Maven Pro', sans-serif;
     --body-font: 'Poppins', sans-serif;
@@ -43,7 +45,8 @@
     /* FONT WEIGHT */
     --font-medium: 500;
     --font-semi-bold: 600;
-    --font-bold: 700;
+    --font-bold: 700;*/
+   
 
     /* Margin Size - BOTTOM */
     /* .25rem = 4px, .5rem = 8px, 1rem = 16px, .75rem=12px */
@@ -617,11 +620,11 @@ img{
     object-fit: fill;
 }
 
-/*.card_skill:hover .imgBx{
+.card_skill:hover .imgBx{
     width: 90%;
     height: 90%;
     transform: translate(-20%, -10%);
-}*/
+}
 
 .contentBx{
     display: flex;
@@ -995,7 +998,7 @@ img{
 	color: #fff;
 	box-shadow: 0px 14px 80px rgba(76, 56, 252, 0.4);
 	text-decoration: none;
-	/* font-weight: 500; */
+	/*font-weight: 500; */
 	justify-content: center;
 	text-align: center;
 	letter-spacing: 1px;
@@ -1068,6 +1071,9 @@ img{
 	  width: 30px;
 	}
   }
+
+
+
 
   /* ========================== CONTACT SECTION ========================== */
 
