@@ -1,0 +1,1236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Bootstrap CSS-->
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- Personal Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Koichiro Suzuki</title>>
+  </head>
+  <body>
+<!------------------------ HEADER ---------------------->
+    <header class="header" id = "header">
+        <nav class="nav container navbar-expand-lg">
+            <a href="#" class="nav__logo navbar-brand ml-3">Koichiro Suzuki</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <!--<i class="uil uil-times nav__close" id="nav-close"></i>-->
+            </div>
+
+            <div class="nav__btns">
+                <!-- THEME CHANGING BUTTONS-->
+                <!--<i data-mode = "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>-->
+            </div>
+        </nav>
+    </header>
+
+<!-- =================== MAIN =================== -->
+    <main class="main">
+
+    <!------------------------ HOME ---------------------->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/koichiro-suzuki-72160424b/?originalSubdomain=ca" target="_blank" class="home__social-icon" id="myLinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/rp0067ve/?hl=en" target="_blank" class="home__social-icon" id="myInstagram">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/rp0067ve" target="_blank" class="home__social-icon" id="myGithub">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://fr-fr.facebook.com/people/Koichiro-Suzuki/100012800070170/" target="_blank" class="home__social-icon" id="myfacebook">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <!--<a href="" target="_blank" class="home__social-icon" id="myTwitter">
+                            <i class="uil uil-twitter-alt"></i>-->
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__data">
+                    <small class="home_welcome s-color"> Welcome to my Portfolio Website! </small>
+                    <h1 class="home__title"> I'm Data Scientist</h1>
+                    <div id="typewriter">KEY WORDS: Mathematics/Data Design/Data Handling/Decision Making/Data Visualization/Data Interpretation</div>
+                    <h3 class="home__subtitle" id="home-bio">I can contribute to your company with my data analysis skills. I’m passionate about research and can continue to work on solving problems without giving up until I produce results. </h3>
+                    <a href="#contact" class="button --flex">
+                        Contact Me <!--<i class="uil uil-message-button__icon"></i>--><i class="uil uil-message"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <!--<span class="home__scroll-name"> Scroll Down </span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+                </a>
+            </div>
+        </section>
+
+    <!------------------------ ABOUT ME ---------------------->
+        <section class="about section" id="about">
+            <h2 class="section__title">About</h2>
+            <span class="section__subtitle"> MY Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/S__77824007.jpg" alt="my achievement photo" class="about__img">
+
+                <div class="about__data">
+                    <p class="adout__description" id="home-about">
+                        Data Scientist. When I was a student, I realized the fun of data analysis and decided to become a Data Scientist. Experienced in numerous data analysis projects (those details in portfolio section). Finding the best answers from data and contributing to your company.
+                    </p>
+                </div>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title"> 03+ </span>
+                        <span class="about__info-name"> Years <br> Experience</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title"> 5+ </span>
+                        <span class="about__info-name"> Completed <br> Projects</span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title"> English/Japanese</span>
+                        <span class="about__info-name"> Language <br> </span>
+                    </div>
+                </div>
+
+                <div class="about__buttons">
+                    <a href="assets/file/Koichiro_Suzuki_CV.pdf" download="Koichiro_CV" target="_blank" class="button button--flex">
+                        Download CV <i class="uil uil-download-alt-button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!------------------------ Skills ---------------------->
+        <section class="skills section" id="skills">
+            <h2 class="section__title"> Skillset </h2>
+            <span class="section__subtitle"> My skillsets </span>
+
+            <div class="skills__container container grid">
+                <div class="row" id="skillset_container">
+                    <!-- Skill 1-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/HTML.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> HTML </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/CSS.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> CSS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/R.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> R </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/Python.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Python </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/tableau.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> TABLEAU </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/matlab.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> MATLAB </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 7-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/powerbi.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2>PowerBI </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 8-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/sql.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2>SQL </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 9-->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/img/Petrel.jpg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2>Petrel </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!------------------------ QUALIFICATIONS(Education and Experience) ---------------------->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title"> Qualification </h2>
+            <span class="section__subtitle"> My personal Journey </span>
+
+            <div class="qualification__container container grid">
+
+                <div class="row mt-lg-0">
+                    <!-- Education -->
+                    <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i> Education
+                        </div>
+
+                        <div id="education_timeline">
+                            <div class="container py-2">
+                                <!-- Timeline item 1 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                4, 2016 ~ 3, 2020
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title">[Bachelor of Science]  Physical Sciences </h3>
+                                                        <p class="qualification__subtitle"> Ritsumeikan University (Japan)</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> I studied a wide range of general physics, including electromagnetism, quantum mechanics, statistics, physical mathematics, and thermodynamics. Out of those, I was interested in geophysics. During my senior year of university, I concentrated my studies on geophysics. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item 2 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                4, 2020 ~ 3, 2022
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title">[Master of Science]  Mathematics and Physics </h3>
+                                                        <p class="qualification__subtitle"> Ritsumeikan University (Japan)</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> I was a member of a geophysics laboratory, working on underground analysis to unravel the mysteries of earthquake generation mechanisms. I gained valuable experience as a researcher by participating in international conferences and collaborating with Wit University in South Africa.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item 3 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                9, 2022 ~ 9, 2023
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title">[Diploma]    Data Analytics </h3>
+                                                        <p class="qualification__subtitle"> Toronto School of Management (Canada)</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> Learning the following required for data scientists: Data Design, Data Handling and Decision Making, Working with Data using SQL, Data Visualization and Interpretation. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item end -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__start">
+                                                    <i class="uil uil-rocket qualification__start-icon"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        </div>
+
+                        <div id="expreience_timeline">
+                            <div class="container py-2">
+                                <!-- Timeline item 1 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                10, 2018 ~ 3, 2021
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Internship </h3>
+                                                        <p class="qualification__subtitle"> EF Education First</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> EF Education First is an international education company that specializes in language training, educational travel, academic degree programs, and cultural exchange.I planned and organized a lot of the company's promotional events at EF Kyoto office. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item 2 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                4, 2020 ~ 3, 2022
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Teaching Assistant </h3>
+                                                        <p class="qualification__subtitle"> Ritsumeikan University</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> I was a Teaching Assistant for an Geoscience class.There, I was in charge of preparing the equipment needed for experiments, assisting students with their experiments, and grading their assignments. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item end -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__start">
+                                                    <i class="uil uil-rocket qualification__start-icon"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content -->
+                                    <div class="col py-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!------------------------ PORTFOLIO ---------------------->
+        <!--<section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle"> My most recent works </span>
+
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    
+                    <!-- FOR portfolio item 1-->
+                    <!--<div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/Twitter_SNS_f3ejqv.png" alt="Twitter type SNS">
+                            <img src="assets/img/S__77824007.jpg" alt="Twitter type SNS">
+                        </div>
+
+                        <!--<div class="blog-slider__content">
+                            <span class="blog-slider__code"> July 2021 </span>
+                            <div class="blog-slider__title"> Twitter Like SNS </div>
+                            <div class="blog-slider__text"> Designed a Twitter-like social network website for making posts and following users. </div>
+                            <a href="https://youtu.be/E1X5Q3lgO30" target="_blank" class="button blog-slider__button button--flex">
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- FOR portfolio item 2-->
+                    <!--<div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/ecommerce_django_built_rjii3g.png" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> December 2020</span>
+                            <div class="blog-slider__title"> E-commerce </div>
+                            <div class="blog-slider__text"> Designed an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.” </div>
+                            <a href="https://www.youtube.com/watch?v=Zr6VA7Gl0yQ" target="_blank" class="button blog-slider__button button--flex">
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- FOR portfolio item 3-->
+                    <!--<div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/Mail_django_built_rxd6jc.png" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> October 2020</span>
+                            <div class="blog-slider__title"> MAIL </div>
+                            <div class="blog-slider__text"> Designed a front-end for an email client that makes API calls to send and receive emails. </div>
+                            <a href="https://youtu.be/a6PlEYCYJXw" target="_blank" class="button blog-slider__button button--flex">
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- FOR portfolio item 4-->
+                    <!--<div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/wikipedia_design_django_v28dmu.png" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> September 2020</span>
+                            <div class="blog-slider__title"> WiKi </div>
+                            <div class="blog-slider__text"> Design a Wikipedia-like online encyclopedia.</div>
+                            <a href="https://www.youtube.com/watch?v=9NarL9NsRr8" target="_blank" class="button blog-slider__button button--flex">
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Sae Nuruki-->
+        <!-- Start Portfolio Area -->
+        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center">
+                            <span class="subtitle">Visit my portfolio and keep your feedback</span>
+                            <h2 class="title">My Portfolio</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
+                    <!-- Start Single Portfolio_1 -->
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#portofolioModalCenter01">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/img/DSeis.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Matlab/Petrel</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">Fall Meeting 2020 - AGU [Academic Conference]<i
+                                                class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio_2 -->
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#portofolioModalCenter02">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/img/taitanic.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Python</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">Titanic - Machine Learning from Disaster [Kaggle]<i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio_3 -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#portofolioModalCenter03">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/img/banking.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">PowerBI</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">Analysis of Retail Banking [Project]
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio_4 -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#portofolioModalCenter04">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/img/wine.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">R</a>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">Data handling and decision making in wine data[Project]
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End Single Portfolio -->
+                </div>
+            </div>
+        </div>
+        <!-- End portfolio Area -->
+
+        
+
+    <!------------------------ CONTACT US ---------------------->
+        <section class="contact section" id="contact">
+            <h2 class="section__title"> Contact Me </h2>
+            <span class="section__subtitle"> Get in touch</span>
+
+            <div class="row mt-lg-6 justify-content-center contact_mail">
+                <!-- Contact information-->
+                <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h2 class="contact__title">Call Me</h2>
+                            <span class="contact__subtitle">+01-4372596931</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">KoichiroSuzuki6565@gmail.com</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-location-pin-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__subtitle"> Toront, Ontario CANADA</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- FORM -->
+                <!--<div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+                    <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+                    <form action="#" method="POST" class="cf">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your email">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="button button--flex send-message form-button">
+                                    Send message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>-->
+            </div>
+        </section>
+    </main>
+
+    <!-- modal area -->
+        <!-- Modal Portfolio Body area Start_1 -->
+        <div class="modal fade" id="portofolioModalCenter01" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/img/DSeis.jpg" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Fall Meeting 2020 - AGU</span> 
+                                    </h3>
+                                    <p class="mb--30">I presented my research results at the Fall Meeting 2020-<a href="https://www.agu.org/">AGU</a>. The theme is "Reinterpretation of a legacy 3D seismic reflection data to elucidate an unusual sinistral M5.5 earthquake fault below a structurally complex deep gold mine". We made a new discovery in seismology using a lot of valuable data obtained from the <a href="https://www.ritsumei.ac.jp/research/radiant/eng/connect/story1.html/">DSeis project</a>.</p>
+                                    <p></p>
+                                    <div class="button-group mt--20">
+                                        <a href="https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=29-99-30-79-04-9F-9E-6F-E1-B6-6C-23-AE-1E-09-DE" class="rn-btn">
+                                            <span>VIEW PROJECT</span>
+                                            <i data-feather="chevron-right"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End of .text-content -->
+                            </div>
+                        </div>
+                        <!-- End of .row Body-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Portfolio area -->
+        <!-- Modal Portfolio Body area Start_2 -->
+        <div class="modal fade" id="portofolioModalCenter02" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/img/taitanic.jpg" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Titanic - Machine Learning from Disaster</span> 
+                                    </h3>
+                                    <p class="mb--30">This is a Kaggle competition(<a href="https://www.kaggle.com/competitions/titanic">Titanic</a>). Use machine learning to create a model to predict which passengers survived the wreck of the Titanic. I used a variety of machine learning methods to create our model and made a highly accurate model.</p>
+                                    <p></p>
+                                    <div class="button-group mt--20">
+                                        <a href="https://github.com/rp0067ve/Titanic_Predictiopn.git" class="rn-btn">
+                                            <span>VIEW PROJECT</span>
+                                            <i data-feather="chevron-right"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End of .text-content -->
+                            </div>
+                        </div>
+                        <!-- End of .row Body-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Portfolio area -->
+        <!-- Modal Portfolio Body area Start_3 -->
+        <div class="modal fade" id="portofolioModalCenter03" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/img/banking.jpg" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Analysis of Retail Banking [Project]</span> 
+                                    </h3>
+                                    <p class="mb--30">This is a project assignment for TSoM.
+                                        Eagle National Bank (fictional bank) is a leading bank in the Americas with its headquarters in the USA . However, in recent years it has been severely damaged by the 2008 economic crisis and the 2020 COVID-19. Therefore, in order to develop new customers, we analyzed customer characteristics using historical data in dynamic, explicit, and visual way.
+                                        </p>
+                                    <p></p>
+                                    <div class="button-group mt--20">
+                                        <a href="https://github.com/rp0067ve/Retail_Banking_Analysis.git" class="rn-btn">
+                                            <span>VIEW PROJECT</span>
+                                            <i data-feather="chevron-right"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End of .text-content -->
+                            </div>
+                        </div>
+                        <!-- End of .row Body-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Portfolio Body area Start_4 -->
+        <div class="modal fade" id="portofolioModalCenter04" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/img/wine.jpg" alt="slide">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Data handling and decision making in wine data</span>
+                                    </h3>
+                                    <p class="mb--30">This is a school project assignment. BurgundySip management recently decided to use data analytics to streamline their pricing strategy. You have been hired as part of a team of analysts to conduct a pilot exploratory (but still prescriptive) study to investigate data relationships, trends, and patterns in price as well as other variables.</p>
+                                    <p></p>
+                                    <div class="button-group mt--20">
+                                        <a href="https://github.com/rp0067ve/Wine_Analysis.git" class="rn-btn">
+                                            <span>VIEW PROJECT</span>
+                                            <i data-feather="chevron-right"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- End of .text-content -->
+                            </div>
+                        </div>
+                        <!-- End of .row Body-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <!-- End Modal Portfolio area -->
+
+<!------------------------ FOOTER ----------------------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+
+                <div>
+                    <hi class="footer__title"> DATA SCIENTIST </hi>
+                    <span class="footer__subtitle"> </span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <div href="#about" class="footer__link"> About Me</div>
+                    </li>
+
+                    <li>
+                        <div href="#portfolio" class="footer__link"> My Portfolio</div>
+                    </li>
+
+                    <li>
+                        <div href="#contact" class="footer__link"> Contact Me</div>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/koichiro-suzuki-72160424b/?originalSubdomain=ca" target="_blank" class="footer__social" id="myLinkedIn">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/rp0067ve/?hl=en" target="_blank" class="footer__social" id="myInstagram">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/rp0067ve" target="_blank" class="footer__social" id="myGithub">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="https://fr-fr.facebook.com/people/Koichiro-Suzuki/100012800070170/" target="_blank" class="footer__social" id="myfacebook">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <!--<a href="" target="_blank" class="footer__social" id="myTwitter">
+                        <i class="uil uil-twitter-alt"></i>-->
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; ALL right reserved</p>
+        </div>
+    </footer>
+
+
+<!------------------------ SCROLL TOP ----------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect  -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!--  Swiper JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+
+    <!-- Self Script -->
+    <script scr="jp/script.jp"></script>
+
+    <!-- JS ============================================ -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/modernizer.min.js"></script>
+    <script src="js/vendor/feather.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/text-type.js"></script>
+    <script src="js/vendor/wow.js"></script>
+    <script src="js/vendor/aos.js"></script>
+    <script src="js/vendor/particles.js"></script>
+    <script src="js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="js/main.js"></script>
+
+    <script>
+        particlesJS('particles-js',
+
+            {
+                "particles": {
+                    "number": {
+                        "value": 20,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": ["#ffffff", ]
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 4
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.8,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 4,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 800,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
+                }
+            }
+
+        );
+    </script>
+  </body>
+</html>
